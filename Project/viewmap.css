@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#view-map{
+    height: 700px;
+    width: 90%;
+    padding: 20px;
+    border:  1px solid #C65BCF;
+    border-radius: 10px;
+}
+#active{
+    background: #C65BCF;
+    color: white;
+}
+#s-btn:hover{
+    background: #C65BCF;
+    color: white;
+}
+#s-btn
+{
+    color: #C65BCF;
+    border-color: #874CCC;
+}
+.container
+{
+    width: 100%;
+}
+#n-text{
+    color: #C65BCF;
+}
+.search-box{
+    width: 250px;
+    border: 2px solid #874CCC;
+    border-radius: 5px;
+    height: 50px;
+}
+.search-box:focus{
+    border:none;
+    box-shadow: 5px 5px 5px #C65BCF;
+}
+.search{
+    background-color: #C65BCF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.search-form
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #C65BCF;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    color: #874CCC;
+    font-family: 'Bell MT';
+    justify-content: center;
+    align-items: center;
+}

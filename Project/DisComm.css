@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #222D32;
+    font-family: 'Poppins', sans-serif; 
+}
+#n-text{
+    color: #C65BCF;
+}
+#n-header{
+    font-size: 40px;
+    color: #C65BCF;
+}
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container
+{
+    width: 100%;
+}
+.community {
+    width: 35%;
+    height: 35%;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#active{
+    background: #C65BCF;
+    color: white;
+}
+.community img {
+    width: 70%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.community-name {
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.join-cricket-btn
+ {
+    margin-top: 5px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.join-cricket-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.leave-cri-btn,
+.leave-foot-btn,
+.leave-bad-btn,
+.leave-bas-btn {
+    display: none;
+}
+
+.leave-cricket-btn {
+    display: none;
+}
+
+
+
+

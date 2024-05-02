@@ -1,0 +1,76 @@
+#map{
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    border:  1px solid #C65BCF;
+    border-radius: 10px;
+}
+
+#active{
+    background: #C65BCF;
+    color: white;
+}
+#n-text{
+    color: #C65BCF;
+}
+#subbtn
+{
+    background-color: #C65BCF;
+    color: white;
+    border-color: white;
+}
+#floatingInput:focus
+{
+    box-shadow: 5px 5px 5px #C65BCF;
+}
+#floatingInput
+{
+    border: 1px solid #C65BCF;
+}
+.containers
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.container
+{
+    width: 100%;
+}
+.filter-container
+{
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.lat-long
+{
+    text-align: center;
+}
+.filter:hover{
+    box-shadow: 10px 10px 10px #874CCC;
+}
+.filter
+{
+    
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    border: 1px solid #C65BCF;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    color: #874CCC;
+    font-family: 'Bell MT';
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    background: blueviolet;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
